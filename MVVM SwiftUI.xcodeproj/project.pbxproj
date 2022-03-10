@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D212CFE27DA990C0059BAD0 /* CourseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D212CFD27DA990C0059BAD0 /* CourseDetailsViewModel.swift */; };
+		1D212D0027DA9C550059BAD0 /* CourseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D212CFF27DA9C550059BAD0 /* CourseDetailsView.swift */; };
+		1D212D0827DAA0EE0059BAD0 /* CourseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D212D0727DAA0EE0059BAD0 /* CourseImage.swift */; };
+		1D212D0A27DAA3C80059BAD0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D212D0927DAA3C80059BAD0 /* DataManager.swift */; };
+		1D212D0C27DAA9B50059BAD0 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D212D0B27DAA9B50059BAD0 /* RowView.swift */; };
+		1D7A63FD27DA895D00C71513 /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A63FC27DA895D00C71513 /* CourseListViewModel.swift */; };
 		1DA58FE327DA5EBB0096BCB2 /* MVVM_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA58FE227DA5EBB0096BCB2 /* MVVM_SwiftUIApp.swift */; };
-		1DA58FE527DA5EBB0096BCB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA58FE427DA5EBB0096BCB2 /* ContentView.swift */; };
+		1DA58FE527DA5EBB0096BCB2 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA58FE427DA5EBB0096BCB2 /* CourseListView.swift */; };
 		1DA58FE727DA5EBC0096BCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA58FE627DA5EBC0096BCB2 /* Assets.xcassets */; };
 		1DA58FEA27DA5EBC0096BCB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA58FE927DA5EBC0096BCB2 /* Preview Assets.xcassets */; };
 		1DA58FF127DA5F8D0096BCB2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA58FF027DA5F8D0096BCB2 /* NetworkManager.swift */; };
@@ -16,9 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D212CFD27DA990C0059BAD0 /* CourseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewModel.swift; sourceTree = "<group>"; };
+		1D212CFF27DA9C550059BAD0 /* CourseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsView.swift; sourceTree = "<group>"; };
+		1D212D0727DAA0EE0059BAD0 /* CourseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseImage.swift; sourceTree = "<group>"; };
+		1D212D0927DAA3C80059BAD0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1D212D0B27DAA9B50059BAD0 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		1D7A63FC27DA895D00C71513 /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
 		1DA58FDF27DA5EBB0096BCB2 /* MVVM SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA58FE227DA5EBB0096BCB2 /* MVVM_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUIApp.swift; sourceTree = "<group>"; };
-		1DA58FE427DA5EBB0096BCB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DA58FE427DA5EBB0096BCB2 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		1DA58FE627DA5EBC0096BCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DA58FE927DA5EBC0096BCB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DA58FF027DA5F8D0096BCB2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -36,6 +48,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D212D0127DA9CA40059BAD0 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				1DA58FE427DA5EBB0096BCB2 /* CourseListView.swift */,
+				1D7A63FC27DA895D00C71513 /* CourseListViewModel.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		1D212D0227DA9CAF0059BAD0 /* CourseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1D212CFF27DA9C550059BAD0 /* CourseDetailsView.swift */,
+				1D212CFD27DA990C0059BAD0 /* CourseDetailsViewModel.swift */,
+			);
+			path = CourseDetails;
+			sourceTree = "<group>";
+		};
+		1D212D0327DA9CB80059BAD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DA58FF227DA5FD00096BCB2 /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D212D0427DA9CBD0059BAD0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1DA58FF027DA5F8D0096BCB2 /* NetworkManager.swift */,
+				1D212D0927DAA3C80059BAD0 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D212D0527DA9CCD0059BAD0 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1DA58FE627DA5EBC0096BCB2 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		1D212D0627DAA0E10059BAD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D212D0727DAA0EE0059BAD0 /* CourseImage.swift */,
+				1D212D0B27DAA9B50059BAD0 /* RowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1DA58FD627DA5EBB0096BCB2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +120,12 @@
 			isa = PBXGroup;
 			children = (
 				1DA58FE227DA5EBB0096BCB2 /* MVVM_SwiftUIApp.swift */,
-				1DA58FE427DA5EBB0096BCB2 /* ContentView.swift */,
-				1DA58FF027DA5F8D0096BCB2 /* NetworkManager.swift */,
-				1DA58FF227DA5FD00096BCB2 /* Course.swift */,
-				1DA58FE627DA5EBC0096BCB2 /* Assets.xcassets */,
+				1D212D0627DAA0E10059BAD0 /* Views */,
+				1D212D0127DA9CA40059BAD0 /* CourseList */,
+				1D212D0227DA9CAF0059BAD0 /* CourseDetails */,
+				1D212D0427DA9CBD0059BAD0 /* Services */,
+				1D212D0327DA9CB80059BAD0 /* Models */,
+				1D212D0527DA9CCD0059BAD0 /* Resourses */,
 				1DA58FE827DA5EBC0096BCB2 /* Preview Content */,
 			);
 			path = "MVVM SwiftUI";
@@ -143,9 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D212D0827DAA0EE0059BAD0 /* CourseImage.swift in Sources */,
+				1D212D0C27DAA9B50059BAD0 /* RowView.swift in Sources */,
 				1DA58FF327DA5FD00096BCB2 /* Course.swift in Sources */,
+				1D7A63FD27DA895D00C71513 /* CourseListViewModel.swift in Sources */,
 				1DA58FF127DA5F8D0096BCB2 /* NetworkManager.swift in Sources */,
-				1DA58FE527DA5EBB0096BCB2 /* ContentView.swift in Sources */,
+				1DA58FE527DA5EBB0096BCB2 /* CourseListView.swift in Sources */,
+				1D212D0027DA9C550059BAD0 /* CourseDetailsView.swift in Sources */,
+				1D212CFE27DA990C0059BAD0 /* CourseDetailsViewModel.swift in Sources */,
+				1D212D0A27DAA3C80059BAD0 /* DataManager.swift in Sources */,
 				1DA58FE327DA5EBB0096BCB2 /* MVVM_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

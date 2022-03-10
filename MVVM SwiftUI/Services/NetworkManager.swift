@@ -35,7 +35,7 @@ class NetworkManager {
         return courses
     }
     
-    func fetchImage(_ url: String) async throws -> Data {
+    func fetchImage(_ url: String) throws -> Data {
         
         guard let imageURL = URL(string: url) else {
             throw NetworkError.invalidURL
